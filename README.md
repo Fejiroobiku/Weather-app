@@ -1,4 +1,9 @@
-ther App
+These are the servers this weather application are being hosted on 
+Web01   54.173.1.14
+web02 52.55.180.37
+lb 54.197.195.250
+I apologise for the multiple submissioons please bear with me 
+
 
 ## Overview
 This is a weather application that allows users to search for current weather and hourly forecasts of cities around the world. It fetches data from the OpenWeatherMap API and displays the information in a user-friendly format.
