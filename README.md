@@ -20,8 +20,7 @@ API Documentation: [OpenWeatherMap API](https://openweathermap.org/api)
 
 ### Part 1: Local Setup
 1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
+ 
 Navigate to the project directory.
 
 bash
@@ -52,12 +51,7 @@ server {
     listen 80;
     server_name localhost;
 
-    root /home/ubuntu/Weather-app;  # Directory where the app is located
-    index index.html;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
+    
 }
 Load Balancer (HAProxy)
 The load balancer (Lb01) is configured to distribute incoming requests between the two web servers.
@@ -111,12 +105,6 @@ If you wish to contribute to this project, feel free to fork the repository and 
 License
 This project is licensed under the MIT License.
 
-vbnet
-Copy code
 
-### Notes:
-- **Replace** the `git clone` URL with your actual GitHub repository URL.
-- **API Key:** You might want to explain how users can set up their own API key for OpenWeatherMap if they wish to deploy the app on their own.
-- **Nginx and HAProxy configurations:** Make sure to include clear instructions for configuring and restarting both Nginx and HAProxy on the respective servers.
 
-Feel free to make any adjustments to suit your needs! Let me know if you need further assistance.
+
